@@ -1,0 +1,11 @@
+name = "earnzy-worker"
+main = "src/index.js"
+compatibility_date = "2025-09-17"
+
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+workers_dev = true
+
+[vars]
+FIREBASE_PROJECT_ID = "earnzy-8e714"
+FIREBASE_CLIENT_EMAIL = "firebase-adminsdk-abc@earnzy-8e714.iam.gserviceaccount.com"
+FIREBASE_PRIVATE_KEY = """-----BEGIN PRIVATE KEY-----\nMIIE...snip...\n-----END PRIVATE KEY-----\n"""
